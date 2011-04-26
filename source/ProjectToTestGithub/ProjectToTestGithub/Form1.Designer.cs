@@ -31,10 +31,12 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.colors = new System.Windows.Forms.ListBox();
             this.colorPanel = new System.Windows.Forms.Panel();
+            this.userControl11 = new ProjectToTestGithub.UserControl1();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            this.colorPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -73,10 +75,18 @@
             // 
             // colorPanel
             // 
+            this.colorPanel.Controls.Add(this.userControl11);
             this.colorPanel.Location = new System.Drawing.Point(-1, 0);
             this.colorPanel.Name = "colorPanel";
             this.colorPanel.Size = new System.Drawing.Size(185, 255);
             this.colorPanel.TabIndex = 0;
+            // 
+            // userControl11
+            // 
+            this.userControl11.Location = new System.Drawing.Point(23, 12);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(150, 150);
+            this.userControl11.TabIndex = 0;
             // 
             // Form1
             // 
@@ -90,6 +100,7 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            this.colorPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -99,6 +110,7 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.ListBox colors;
         private System.Windows.Forms.Panel colorPanel;
+        private UserControl1 userControl11;
     }
 }
 
