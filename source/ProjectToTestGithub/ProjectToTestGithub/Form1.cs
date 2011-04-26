@@ -23,7 +23,7 @@ namespace ProjectToTestGithub
             else if (listControl.SelectedItem.Equals("Blue")) colorPanel.BackColor = Color.Blue;
             else if (listControl.SelectedItem.Equals("Green")) colorPanel.BackColor = Color.Green;
             else if (listControl.SelectedItem.Equals("Yellow")) colorPanel.BackColor = Color.Yellow;
-            else if (listControl.SelectedItem.Equals("Black")) colorPanel.BackColor = Color.Black;
+            else if (listControl.SelectedItem.Equals("Black")) colorPanel.BackColor = Color.Grey;
             else if (listControl.SelectedItem.Equals("White")) userControl11.Visible = !userControl11.Visible;
         }
     }
