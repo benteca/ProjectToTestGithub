@@ -16,8 +16,11 @@ namespace ProjectToTestGithub
             InitializeComponent();
         }
 
+        public string test { get; set; }
+
         private void colors_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
             ListBox listControl = sender as ListBox;
             if (listControl.SelectedItem.Equals("Red")) colorPanel.BackColor = Color.Red;
             else if (listControl.SelectedItem.Equals("Blue")) colorPanel.BackColor = Color.Blue;
