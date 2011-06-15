@@ -18,7 +18,7 @@ namespace ProjectToTestGithub
 
         private void UserControl1_Load(object sender, EventArgs e)
         {
-            label1.Text = "Loaded.";
+            label1.Text = "Fully loaded.";
         }
     }
 }
